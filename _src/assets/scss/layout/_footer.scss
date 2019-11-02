@@ -1,2 +1,30 @@
-footer {
+.footer {
+  border-top: 1px solid #cc212a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: $font;
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  height: 100px;
+
+  .footer__text__logo {
+    color: black;
+    position: relative;
+    bottom: 10px;
+    z-index: 1;
+  }
+
+  .footer__text__copy {
+    color: grey;
+    margin-top: 45px;
+  }
+}
+
+div {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #cc212a;
 }
